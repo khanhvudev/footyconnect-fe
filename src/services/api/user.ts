@@ -1,5 +1,5 @@
 import type { LoginRequest } from '../../components/Login/types/loginRequest';
-import apiClient from '../client';
+import apiClient from './client';
 
 const userEndpoint = '/users';
 
